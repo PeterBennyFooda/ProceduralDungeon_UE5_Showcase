@@ -22,16 +22,16 @@ It also supports prefabs, allowing users to create a list of room, hallway, and 
 Position rooms randomly while ensuring they do not overlap.
 
 ### Step 2
-Create a Delaunay triangulation graph of the rooms. 
+Create a **Delaunay triangulation** graph of the rooms. 
 
 ### Step 3
-Generate a minimum spanning tree (MST) from the triangulation, ensuring all rooms are connected and accessible. Since the MST forms a tree, it contains no cycles, providing only one path between any two rooms.
+Generate a **minimum spanning tree (MST)** from the triangulation, ensuring all rooms are connected and accessible. Since the MST forms a tree, it contains no cycles, providing only one path between any two rooms.
 
 ### Step 4
-Create a list of hallways, initially including all edges from the tree generated in Step 3. Since the tree connects all rooms, it ensures a path to every room exists. Then, randomly add additional edges from the triangulation graph to the list.
+Create a list of hallways, initially including all edges from the tree generated in Step 3. Since the tree connects all rooms, it ensures a path to every room exists. Then, **randomly add additional edges** from the triangulation graph to the list.
 
 ### Step 5
-For each hallway in the list, the A* algorithm is used to find a path from its start to its end. Once a path is found, it modifies the world state, allowing future hallways to navigate around existing ones.
+For each hallway in the list, the **A\* algorithm** is used to find a path from its start to its end. Once a path is found, it modifies the world state, allowing future hallways to navigate around existing ones.
 The cost function prioritizes using hallways carved in previous iterations, making it cheaper to extend existing paths rather than create new ones.
 
 ### Step 6
