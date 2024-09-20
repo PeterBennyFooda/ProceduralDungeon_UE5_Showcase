@@ -6,8 +6,10 @@ https://github.com/user-attachments/assets/3df05ac0-1c41-4a6a-9190-f40d2b48f87b
 
 ## Features
 
-This system generates complex, multi-layered dungeons with customizable parameters, such as dungeon size, number of staircases per floor, and minimum room count per floor. 
+This system generates complex, multi-layered dungeons with customizable parameters, such as dungeon size, number of staircases per floor, and minimum room count per floor.   
+
 It also supports prefabs, allowing users to create a list of room, hallway, and staircase blueprints within the engine, which are then procedurally generated at runtime.
+Optionally, the user can generate the dungeon within a building, with the building's size determined by the dungeon size parameters set by the user.
 
 <img src= "https://github.com/user-attachments/assets/a75b8a30-82d0-4411-8062-a84fbf6fcc4a" width ="382.5" height="288">  
 <img src= "https://github.com/user-attachments/assets/1b26ab7d-5252-4b79-9ad9-f1dd9b9aafc5" width ="382.5" height="288">  
