@@ -16,7 +16,7 @@ Optionally, the user can generate the dungeon within a building, with the buildi
 <img src= "https://github.com/user-attachments/assets/bbe0fbff-b968-4617-ae8c-b4be06711b7c" width ="382.5" height="288">  
 <img src= "https://github.com/user-attachments/assets/36ac92d9-4f08-425f-99cd-c719874e8298" width ="382.5" height="288"> 
 
-[Blue] Room, [Red] Staircase, [Green] Hallway, [White] Wall & Celling
+![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `Room`, ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `Staircase`, ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Hallway`, ![#eeeeee](https://placehold.co/15x15/eeeeee/eeeeee.png)`Wall & Celling` 
 
 ## Technical Details
 
